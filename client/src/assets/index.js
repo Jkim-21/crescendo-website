@@ -45,7 +45,6 @@ import kaiyabrooks from "./kaiya-brooks.png";
 
 import northwesternBackground from "./northwestern-background.jpg";
 import nicoleCeriani from "./nicole-ceriani.png";
-import yujinTartar from "./yujin-tatar.png";
 import benKim from "./ben-kim.png";
 import ethanCorriel from "./ethan-corriel.png";
 import nedYu from "./ned-yu.png";
@@ -69,6 +68,11 @@ import johnnylin from "./johnnylin.png";
 import juliafranco from "./juliafranco.png";
 import ellaney from "./ellaney.png";
 import michelledoe from "./michelledoe.png";
+import yujinTartar from "./yujin-tatar.png";
+import rachelGarich from "./rachel-garich.png";
+import nathanielPistorius from "./nathaniel-pistorius.png";
+import jubileeChen from "./jubilee-chen.png";
+import elizabethHsu from "./elizabeth-hsu.png";
 
 import stevensonBackground from "./stevenson-background.png";
 
@@ -170,7 +174,11 @@ export {
   ucsbBackground,
   ucsbcon1,
   ucsbcon2,
-  yujinTartar,
   ellaney,
-  michelledoe
+  michelledoe,
+  yujinTartar,
+  rachelGarich,
+  nathanielPistorius,
+  jubileeChen,
+  elizabethHsu
 };

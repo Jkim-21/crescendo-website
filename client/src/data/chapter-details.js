@@ -26,6 +26,10 @@ import {
   juliafranco,
   ellaney,
   michelledoe,
+  rachelGarich,
+  nathanielPistorius,
+  jubileeChen,
+  elizabethHsu
 } from "../assets";
 
 export const colby = {
@@ -198,9 +202,9 @@ export const northwestern = {
   officers: [
     {
       id: "co-president",
-      name: "Nicole Ceriani",
+      name: "Yujin Tatar",
       title: "Co-President",
-      headshot: nicoleCeriani,
+      headshot: yujinTartar,
     },
     {
       id: "co-president2",
@@ -222,15 +226,33 @@ export const northwestern = {
     },
     {
       id: "treasurer",
-      name: "Ethan Corriel",
+      name: "Rachel Garich",
       title: "Treasurer",
-      headshot: ethanCorriel,
+      headshot: rachelGarich,
     },
     {
-      id: "community-development-chari",
+      id: "community-development-chair",
       name: "Ben Kim",
       title: "Community Development Chair",
       headshot: benKim,
+    },
+    {
+      id: "mentorship-chair",
+      name: "Nathaniel Pistorius",
+      title: "Mentorship Chair",
+      headshot: nathanielPistorius,
+    },
+    {
+      id: "pr-chair",
+      name: "Jubilee Chen",
+      title: "PR Chair",
+      headshot: jubileeChen,
+    },
+    {
+      id: "co-community-development-chair",
+      name: "Elizabeth Hsu",
+      title: "Co-Community Development Chair",
+      headshot: elizabethHsu,
     },
   ],
 };
