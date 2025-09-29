@@ -9,6 +9,8 @@ import { close, menu } from '../assets';
 import {logos} from '../data/global'
 
 const Navbar = ({ pageStyles }) => {
+  const locked = import.meta.env.VITE_APP_LOCKED === 'true';
+
   const [toggle, setToggle] = useState(false);
   const [activeDropdownId, setActiveDropdownId] = useState(null);
 
@@ -53,7 +55,10 @@ const Navbar = ({ pageStyles }) => {
                   {nav.id === 'tools' ? (
                     <Link
                       to={`/${nav.id}`}
-                      className='dashboard border rounded-[2rem] px-[1rem] py-[0.5rem] lighter-gray-border'
+                      onClick={e => {
+                        if (locked) e.preventDefault();
+                      }}
+                      className='dashboard border rounded-[2rem] px-[1rem] py-[0.5rem] lighter-gray-border opacity-50 cursor-not-allowed'
                     >
                       {nav.title}
                     </Link>
@@ -109,6 +114,10 @@ const Navbar = ({ pageStyles }) => {
                   className={`${i === navLinks.length - 1 ? 'mb-0' : 'mb-[0.25rem]'} nav-sidebar-link dark-text`}>
                     {nav.id === 'tools' ? (
                     <Link
+                      onClick={e => {
+                        if (locked) e.preventDefault();
+                      }}
+                      className = "opacity-50 cursor-not-allowed"
                       to={`/${nav.id}`}
                     >
                       {nav.title}

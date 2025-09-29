@@ -22,7 +22,7 @@ const corsOptions = {
   methods: ["POST", "GET", "PUT", "DELETE"],
 };
 
-const uri = `mongodb+srv://jjkjon21:${process.env.MONGO_DATABASE_PASSWORD}@crescendowebsite.ssxyrz4.mongodb.net/?retryWrites=true&w=majority&appName=CrescendoWebsite`;
+const uri = `mongodb+srv://admin_db_user:${process.env.MONGO_DATABASE_PASSWORD}@crescendowebsite.ssxyrz4.mongodb.net/?retryWrites=true&w=majority&appName=CrescendoWebsite`;
 
 async function connect() {
   try {
